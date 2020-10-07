@@ -14,36 +14,6 @@ https://github.com/rahulgupta15/generalassemblyemr
 
 https://gaemr.herokuapp.com/accounts/login/
 
-# Installation
-
-### For non-Windows users:
-
-```
-git clone https://github.com/rahulgupta15/generalassemblyemr
-cd generalassemblyemr
-
-python3 manage.py migrate
-python3 manage.py runserver
-
-```
-
-### For Windows users:
-
-```
-git clone https://github.com/rahulgupta15/generalassemblyemr
-cd generalassemblyemr
-
-```
-
-From this point, each instance of the class name 'Role' located in models.py and admin.py must be changed to 'MyRole.' If such a change is not made, database migrations will not be possible.
-
-```
-python3 manage.py migrate
-python3 manage.py runserver
-
-```
-
-
 # Useage
 
 ### Login Portal
